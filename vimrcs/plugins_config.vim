@@ -116,8 +116,20 @@ nnoremap <silent> <leader>z :Goyo<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Syntastic (syntax checker)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"recommend setting for beginners by https://github.com/scrooloose/syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+"end
+
 let g:syntastic_python_checkers=['pyflakes']
 let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_matlab_checkers = ['mlint']
 
 " Custom CoffeeScript SyntasticCheck
 func! SyntasticCheckCoffeescript()
