@@ -15,7 +15,6 @@ I would of course recommend using the awesome version.
 The awesome version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following:
 
 	git clone https://github.com/qinhongwei/vimrc.git ~/.vim_runtime
-    git checkout personal
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 The taglist.vim plugin will require ctags (http://ctags.sourceforge.net) (Debian: apt-get install ctags)
