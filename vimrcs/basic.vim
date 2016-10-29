@@ -167,6 +167,10 @@ endif
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
 
+" Set fencs to support Chinese in some files
+" See http://hanjc.me/post/2015-08-27-Xshell-VIM-encoding/
+set fencs=utf-8,gbk
+
 " Use Unix as the standard file type
 set ffs=unix,dos,mac
 
