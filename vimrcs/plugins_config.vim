@@ -163,7 +163,6 @@ let g:syntastic_javascript_checkers = ['jshint']
 let g:syntastic_matlab_checkers = ['mlint']
 
 " Go
-let g:syntastic_auto_loc_list = 1
 let g:syntastic_go_checkers = ['go', 'golint', 'errcheck']
 
 " Custom CoffeeScript SyntasticCheck
